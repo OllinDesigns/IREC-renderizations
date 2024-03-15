@@ -1,0 +1,23 @@
+/notes
+# Ignore compiled binaries
+*.pyc
+*.class
+
+# Ignore directories containing temporary or generated files
+myenv/
+bin/
+virtual/
+
+# Ignore IDE-specific files and directories
+.idea/
+.vscode/
+
+# Ignore environment-specific files
+*.env
+.DS_Store
+
+# Ignore backup files
+*~
+
+# Ignore system files
+Thumbs.db
