@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+
+    <!-- picocss/pico CDN files, con esta funciona -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+    />
+
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
+/>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/dropdownscript.js"></script>
+
+  </head>
+  <body>
+    <main class="container">
+    
+      <nav id="main-nav">
+        <ul>
+          <img id="ireclogo" src="./img/IREClogo.webp" alt="IrecLogo">
+        </ul>
+        <ul>
+          <li><button id="nav-button" class="secondary">Contact</button></li>
+        </ul>
+      </nav>
+
+      <div class="basictext">
+        <p>Base de datos experimental relacionada con materiales para la conversión de energía renovable</p>
+      </div>
+      <div class="basictext">
+        <p>Texto explicativo</p>
+      </div>
+      <label for="type">Type</label>
+      <select id="type" required>
+        <option>Experimental</option>
+        <option>Machine learning model</option>
+        <div class="grid">
+      </select>
+
+      <label for="property">Property</label>
+      <select id="property" required>
+        <!-- depending on the selection of the first dropdown
+        this options get exchanged by "Model Property 1 ... 5" -->
+        <option>Experimental Property 1</option>
+        <option>Experimental Property 2</option>
+        <option>Experimental Property 3</option>
+        <option>Experimental Property 4</option>
+        <option>Experimental Property 5</option>
+        <option>Experimental Property 6</option>
+        <option>Experimental Property 7</option>
+      </select>
+    </div>
+      <!-- depending on the selection of the of both dropdowns
+      the src attribute of the iframe points to one of the 7 + 5 = 12 visualization -->
+      <div id="visualization">
+      <iframe 
+        src="https://foobar.github.io/assets/visualizations/experimental/1.html"
+      ></iframe>
+    </div>
+      <!-- depending on the selection of the of both dropdowns
+      the href attribute of the download button to one of the 7 + 5 = 12 CSV files -->
+      <div id="centre">
+      <a
+        href="https://foobar.github.io/assets/data/experimental/1.csv"
+        role="button"
+        >Download CSV</a
+      >
+    </div>
+  
+    </main>
+  </body>
+</html>
