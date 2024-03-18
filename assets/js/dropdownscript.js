@@ -7,25 +7,25 @@ document.addEventListener("DOMContentLoaded", function () {
     var structure = {
       Experimental: {
         // "Experimental Property 1": {
-        //   iframe: "visualisations/experimental/example1.html",
+        //   iframe: "visualizations/experimental/example1.html",
         //   csv: "data/experimental/data-example.csv",
         // },
         // "Experimental Property 1": {
-        //   iframe: "https://ollindesigns.github.io/IREC-renderizations/visualisations/experimental/example1.html",
+        //   iframe: "https://ollindesigns.github.io/IREC-renderizations/visualizations/experimental/example1.html",
         //   csv: "https://github.com/OllinDesigns/IREC-renderizations/blob/main/data/experimental/data-example.csv",
         // },
         "Experimental Property 1": {
-          iframe: "https://ollindesigns.github.io/visualizations/experimental/example1.html",
+          iframe: "https://ollindesigns.github.io/IREC-renderizations/visualizations/experimental/example1.html",
           csv: "https://ollindesigns.github.io/data/experimental/data-example.csv",
         },
         
         "Experimental Property 2": {
-          iframe: "visualisations/experimental/example2.html",
+          iframe: "visualizations/experimental/example2.html",
           csv: "data/experimental/data-example.csv",
         },
         "Experimental Property 3": {
           iframe:
-            "visualisations/experimental/example3.html",
+            "visualizations/experimental/example3.html",
           csv: "data/experimental/data-example2.csv",
         },
         "Experimental Property 4": {
