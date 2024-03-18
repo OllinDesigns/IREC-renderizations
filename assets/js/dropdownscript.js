@@ -10,10 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
         //   iframe: "visualisations/experimental/example1.html",
         //   csv: "data/experimental/data-example.csv",
         // },
+        // "Experimental Property 1": {
+        //   iframe: "https://ollindesigns.github.io/IREC-renderizations/visualisations/experimental/example1.html",
+        //   csv: "https://github.com/OllinDesigns/IREC-renderizations/blob/main/data/experimental/data-example.csv",
+        // },
         "Experimental Property 1": {
-          iframe: "https://ollindesigns.github.io/IREC-renderizations/visualisations/experimental/example1.html",
-          csv: "https://github.com/OllinDesigns/IREC-renderizations/blob/main/data/experimental/data-example.csv",
+          iframe: "https://ollindesigns.github.io/visualizations/experimental/example1.html",
+          csv: "https://ollindesigns.github.io/data/experimental/data-example.csv",
         },
+        
         "Experimental Property 2": {
           iframe: "visualisations/experimental/example2.html",
           csv: "data/experimental/data-example.csv",
