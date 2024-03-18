@@ -1,64 +1,73 @@
+footer {
+  border-top: 1px solid #ccc; 
+  box-shadow: 0 2px 4px rgba(0.1, 0.1, 0, 0.1);
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
 #main-nav {
-    border-bottom: 1px solid #ccc; /* Add a border bottom */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+  border-bottom: 1px solid #ccc; /* Add a border bottom */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
 }
 
 #visualization {
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
-    position: relative;
-  }
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+  position: relative;
+}
 
-  #visualization iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    scrollbar-width: thin; /* Set scrollbar width */
-    scrollbar-color: black; /* Set scrollbar colors */
-    border: 1px solid black;
-  }
+#visualization iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  scrollbar-width: thin; /* Set scrollbar width */
+  scrollbar-color: black; /* Set scrollbar colors */
+  border: 1px solid black;
+}
 
-  #ireclogo{
-    width: 30%;
-    height:100%;
-    
-  } 
+#ireclogo {
+  width: 30%;
+  height: 100%;
+}
 
-  #centre{
-    margin: auto;
-    text-align: center;
-  }
+#centre {
+  margin: auto;
+  text-align: center;
+}
 
-  [role="button"] {
-    background-color: #AF291D;
-    margin-top: 10px;
-  }
+/* #align-right {
+  text-align: right;
+} */
 
-  #nav-button {
-    background-color: #AF291D;
-    
-  }
+[role="button"] {
+  background-color: #af291d;
+  margin-top: 10px;
+}
 
-  .basictext {
-    padding-top: 18px;
-    padding-bottom: 5px;
-  }
+#nav-button {
+  background-color: #af291d;
+  padding: 7px;
+}
 
-  /* Media query for mobile devices */
- @media screen and (max-width: 768px) {
-     #ireclogo{
+.basictext {
+  padding-top: 18px;
+  padding-bottom: 5px;
+}
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  #ireclogo {
     width: 50%;
-    height:100%;
-    
-  } 
+    height: 100%;
+  }
 
   #visualization {
     width: 100%;
     height: 0;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     position: relative;
   }
 
@@ -69,8 +78,7 @@
     width: 100%;
     height: 100%;
     scrollbar-width: thin;
-    scrollbar-color: black; 
+    scrollbar-color: black;
     /* border: 1px solid black; */
-  } 
-
   }
+}
