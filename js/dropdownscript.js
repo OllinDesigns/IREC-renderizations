@@ -6,9 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     var structure = {
       Experimental: {
+        // "Experimental Property 1": {
+        //   iframe: "visualisations/experimental/example1.html",
+        //   csv: "data/experimental/data-example.csv",
+        // },
         "Experimental Property 1": {
-          iframe: "visualisations/experimental/example1.html",
-          csv: "data/experimental/data-example.csv",
+          iframe: "https://foobar.github.io/assets/visualizations/experimental/1.html",
+          csv: "https://foobar.github.io/assets/data/experimental/1.csv",
         },
         "Experimental Property 2": {
           iframe: "visualisations/experimental/example2.html",
