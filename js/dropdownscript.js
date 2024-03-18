@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
         //   csv: "data/experimental/data-example.csv",
         // },
         "Experimental Property 1": {
-          iframe: "https://foobar.github.io/assets/visualizations/experimental/1.html",
+          iframe: "https://ollindesigns.github.io/IREC-renderizations/visualisations/experimental/example1.html",
           csv: "https://foobar.github.io/assets/data/experimental/1.csv",
         },
         "Experimental Property 2": {
