@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // },
         "Experimental Property 1": {
           iframe: "https://ollindesigns.github.io/IREC-renderizations/visualizations/experimental/example1.html",
-          csv: "https://ollindesigns.github.io/data/experimental/data-example.csv",
+          csv: "https://ollindesigns.github.io/IREC-renderizations/data/experimental/data-example.csv",
         },
         
         "Experimental Property 2": {
