@@ -18,16 +18,18 @@ document.addEventListener("DOMContentLoaded", function () {
         //   iframe: "https://ollindesigns.github.io/IREC-renderizations/visualizations/experimental/example1.html",
         //   csv: "https://ollindesigns.github.io/IREC-renderizations/data/experimental/data-example.csv",
         // },
-        "Experimental Property 1: 'Lattice Parameter'": {
+        // "Experimental Property 1: 'Lattice Parameter'"
+        "Experimental Property 1": {
           iframe: "visualizations/experimental/1_Exp_Lattice.parameter.html",
           csv: "data/experimental/1_Exp_LatticeParameter.csv",
         },
-        
-        "Experimental Property 2: 'Peak wavenumber at ≈640 cm-1'": {
+        // "Experimental Property 2: 'Peak wavenumber at ≈640 cm-1'":
+        "Experimental Property 2": {
           iframe: "visualizations/experimental/2_Exp_WaveNumberImax.html",
           csv: "data/experimental/2_WavenumberImax.csv",
         },
-        "Experimental Property 3: 'Absorption at 4.4 eV'": {
+        // "Experimental Property 3: 'Absorption at 4.4 eV'"
+        "Experimental Property 3": {
           iframe:
             "visualizations/experimental/3_Exp_Absorption4.4eV.html",
           csv: "data/experimental/3_Exp_Absorption4.4eV.csv",
@@ -38,28 +40,32 @@ document.addEventListener("DOMContentLoaded", function () {
         //     "https://foobar.github.io/assets/visualizations/experimental/4.html",
         //   csv: "https://foobar.github.io/assets/data/experimental/4.csv",
         // },
-
-        "Experimental Property 4: 'Surface Exchange Coefficient'": {
+        // "Experimental Property 4: 'Surface Exchange Coefficient'"
+        "Experimental Property 4": {
           iframe:
             "visualizations/experimental/4_Exp_SurfaceExchangeCoefficient.html",
           csv: "data/experimental/4_Exp_SurfaceExchangeCoefficient.csv",
         },
-        "Experimental Property 5: 'Oxygen Diffusion Coefficient'": {
+        // "Experimental Property 5: 'Oxygen Diffusion Coefficient'"
+        "Experimental Property 5": {
           iframe:
             "visualizations/experimental/5_Exp_OxygenDiffusionCoefficient.html",
           csv: "data/experimental/5_Exp_OxygenDiffusionCoefficient.csv",
         },
-        "Experimental Property 6: 'Activation Energy'": {
+        // "Experimental Property 6: 'Activation Energy'"
+        "Experimental Property 6": {
           iframe:
             "visualizations/experimental/6_Exp_ActivationEnergy.html",
           csv: "data/experimental/6_Exp_ActivationEnergy.csv",
         },
-        "Experimental Property 7: 'Preexponential Factor'": {
+        // "Experimental Property 7: 'Preexponential Factor'"
+        "Experimental Property 7": {
           iframe:
             "visualizations/experimental/7_Exp_PreexponentialFactor.html",
           csv: "data/experimental/7_Exp_PreexponentialFactor.csv",
         },
-        "Experimental Property 8: 'Area Specific Resistance at 700ºC'": {
+        // "Experimental Property 8: 'Area Specific Resistance at 700ºC'"
+        "Experimental Property 8": {
           iframe:
             "visualizations/experimental/8_Exp_AreaSpecificResistance700.html",
           csv: "data/experimental/8_Exp_AreaSpecificResistance700.csv",
