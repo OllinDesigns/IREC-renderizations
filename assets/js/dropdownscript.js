@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
           csv: "data/experimental/2_WavenumberImax.csv",
         },
         // "Experimental Property 3: 'Absorption at 4.4 eV'"
-        "Experimental Property 3": {
+        "Experimental Property 3: 'Absorption at 4.4 eV'": {
           iframe:
             "visualizations/experimental/3_Exp_Absorption4.4eV.html",
           csv: "data/experimental/3_Exp_Absorption4.4eV.csv",
@@ -41,31 +41,31 @@ document.addEventListener("DOMContentLoaded", function () {
         //   csv: "https://foobar.github.io/assets/data/experimental/4.csv",
         // },
         // "Experimental Property 4: 'Surface Exchange Coefficient'"
-        "Experimental Property 4": {
+        "Experimental Property 4: 'Surface Exchange Coefficient'": {
           iframe:
             "visualizations/experimental/4_Exp_SurfaceExchangeCoefficient.html",
           csv: "data/experimental/4_Exp_SurfaceExchangeCoefficient.csv",
         },
         // "Experimental Property 5: 'Oxygen Diffusion Coefficient'"
-        "Experimental Property 5": {
+        "Experimental Property 5: 'Oxygen Diffusion Coefficient'": {
           iframe:
             "visualizations/experimental/5_Exp_OxygenDiffusionCoefficient.html",
           csv: "data/experimental/5_Exp_OxygenDiffusionCoefficient.csv",
         },
         // "Experimental Property 6: 'Activation Energy'"
-        "Experimental Property 6": {
+        "Experimental Property 6: 'Activation Energy'": {
           iframe:
             "visualizations/experimental/6_Exp_ActivationEnergy.html",
           csv: "data/experimental/6_Exp_ActivationEnergy.csv",
         },
         // "Experimental Property 7: 'Preexponential Factor'"
-        "Experimental Property 7": {
+        "Experimental Property 7: 'Preexponential Factor'": {
           iframe:
             "visualizations/experimental/7_Exp_PreexponentialFactor.html",
           csv: "data/experimental/7_Exp_PreexponentialFactor.csv",
         },
         // "Experimental Property 8: 'Area Specific Resistance at 700ºC'"
-        "Experimental Property 8": {
+        "Experimental Property 8: 'Area Specific Resistance at 700ºC'": {
           iframe:
             "visualizations/experimental/8_Exp_AreaSpecificResistance700.html",
           csv: "data/experimental/8_Exp_AreaSpecificResistance700.csv",
