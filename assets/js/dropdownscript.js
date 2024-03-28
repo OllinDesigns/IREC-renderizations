@@ -19,12 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
         //   csv: "https://ollindesigns.github.io/IREC-renderizations/data/experimental/data-example.csv",
         // },
         // "Experimental Property 1: 'Lattice Parameter'"
-        "Experimental Property 1": {
+        "Experimental Property 1: 'Lattice Parameter'": {
           iframe: "visualizations/experimental/1_Exp_Lattice.parameter.html",
           csv: "data/experimental/1_Exp_LatticeParameter.csv",
         },
         // "Experimental Property 2: 'Peak wavenumber at ≈640 cm-1'":
-        "Experimental Property 2": {
+        "Experimental Property 2: 'Peak wavenumber at ≈640 cm-1'": {
           iframe: "visualizations/experimental/2_Exp_WaveNumberImax.html",
           csv: "data/experimental/2_WavenumberImax.csv",
         },
