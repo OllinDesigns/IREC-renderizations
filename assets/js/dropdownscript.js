@@ -47,24 +47,28 @@ document.addEventListener("DOMContentLoaded", function () {
             "visualizations/experimental/4_Exp_SurfaceExchangeCoefficient.html",
           csv: "data/experimental/4_Exp_SurfaceExchangeCoefficient.csv",
         },
+
         // Experimental5
         "Oxygen Diffusion Coefficient": {
           iframe:
             "visualizations/experimental/5_Exp_OxygenDiffusionCoefficient.html",
           csv: "data/experimental/5_Exp_OxygenDiffusionCoefficient.csv",
         },
+
         // Experimental6
         "Activation Energy": {
           iframe:
             "visualizations/experimental/6_Exp_ActivationEnergy.html",
           csv: "data/experimental/6_Exp_ActivationEnergy.csv",
         },
+
         // Experimental7
         "Preexponential Factor": {
           iframe:
             "visualizations/experimental/7_Exp_PreexponentialFactor.html",
           csv: "data/experimental/7_Exp_PreexponentialFactor.csv",
         },
+
         // Experimental8
         "Area Specific Resistance at 700ºC": {
           iframe:
