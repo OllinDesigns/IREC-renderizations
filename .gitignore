@@ -8,6 +8,7 @@ myenv/
 bin/
 virtual/
 notes/
+prueba/
 
 # Ignore IDE-specific files and directories
 .idea/
