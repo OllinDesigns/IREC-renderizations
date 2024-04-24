@@ -26,18 +26,27 @@
     
       <nav id="main-nav">
         <ul>
-          <img id="ireclogo" src="./assets/img/IREClogo.webp" alt="IrecLogo">
+          <li>
+            <a href="https://www.irec.cat/" target="_blank">
+                <img id="ireclogo" src="./assets/img/IREClogo.webp" alt="IrecLogo">
+            </a>
+          </li>
         </ul>
+
         <ul>
-          <li><button id="nav-button" class="secondary">Contact</button></li>
+          <li>
+            <a href="mailto:atarancon@irec.cat">
+              <button id="nav-button" class="secondary">Contact</button>
+            </a>
+          </li>
         </ul>
       </nav>
 
       <div class="basictext">
-        <p>Base de datos experimental relacionada con materiales para la conversión de energía renovable</p>
+        <p><strong>Database on high-entropy perovskites La<sub>0.8</sub>Sr<sub>0.2</sub>(Co,Fe,Mn)O<sub>3±𝞭</sub></strong></p>
       </div>
       <div class="basictext">
-        <p>Texto explicativo</p>
+        <p style="text-align: justify; font-size: 16px">This site includes both experimental and simulated data on La<sub>0.8</sub>Sr<sub>0.2</sub>(Mn, Co, Fe)O<sub>3±𝞭</sub> perovskite oxides with different Mn:Co:Fe ratios. The experimental data was measured with the following techniques: X-ray fluorescence and diffraction, Raman spectroscopy, ellipsometry, electrochemical impedance spectroscopy, and isotopic exchange depth profiling coupled to secondary ion mass spectrometry. All measurements were performed on a compositional map prepared by combinatorial pulsed laser deposition. The simulated data is predicted from the composition of Mn, Fe, and Co using a random forest model. </p>
       </div>
       <label for="type">Type</label>
       <select id="type" required>
@@ -95,22 +104,25 @@
 
       
     </div>
-  
+      
+    <div class="basictext">
+        <p style="text-align: justify; font-size: 16px">More information on the methodology can be found in the publication ‘Oxygen electrode performance mapping of high-entropy perovskites La<sub>0.8</sub>Sr<sub>0.2</sub>(Co,Fe,Mn)O<sub>3±𝞭</sub> with high-throughput characterization and machine learning’, authored by Carlota Bozal-Ginesta, Juande Sirvent, Giulio Cordaro, Sarah Fearn, Sergio Pablo-García, Francesco Chiabrera, Changhyeok Choi, Lisa Laa, Marc Núñez, Andrea Cavallaro, Fjorelo Buzi, Guilhem Dezanneau, John Kilner, Alex Morata, Federico Baiutti, Alán Aspuru-Guzik, and Albert Tarancón.</p>
+    </div>
+    <div class="basictext">
+        <p style="font-style: italic; text-align: justify; font-size: 16px">The copyright of this site belongs to IREC. Its contents is licensed under a Creative Commons Attribution-Non Commercial-No Derivatives 4.0 International Licence (CC BY-NC-ND). Under this licence, the material can be freely copied, distributed and transmitted on the condition that it is not used for commercial purposes, its modified versions are not distributed, and the author is credited. When reusing or sharing this work, ensure the licence terms are clear to others by naming the licence and linking to the licence text. Please seek permission from the copyright holder for uses of this work that are not included in this licence or permitted under EU Copyright Law.</p>
+    </div>
+      
     </main>
     <footer class="container">
       <div class="grid">
         <div>
-          <p id="centre">Website powered by <a href="https://github.com/OllinDesigns">OllinDesigns</a>.</p>
+          <p id="centre"><a href="https://www.atlab.es">Albert Tarancón Group</a></p>
         </div>
         <div>
-          <p id="centre">IREC web</p>
-        </div>
-        <div>
-          <p id="centre">Social Media</p>
+          <p id="centre">website powered by <a href="https://github.com/OllinDesigns">OllinDesigns</a></p>
         </div>
       </div>
-      
-
     </footer>
+
   </body>
 </html>
